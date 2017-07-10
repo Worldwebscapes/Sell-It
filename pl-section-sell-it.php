@@ -225,7 +225,7 @@ class PL_Section_Sell_It extends PL_Section {
           ),
 			array(
          'key'      => 'more_price',
-         'default'    => 'Additional Information',
+         'default'    => 'Additional Information Here',
          'type'       => 'text',
          'label'     => __( 'Addtional Info', 'pl-section-sellit' ),
           ),
@@ -359,7 +359,7 @@ array(
 			<span class="pre_price h4" data-bind="pltext: pre_price">$</span>
 			<span class="price h1" data-bind="pltext: price">25</span>
 			<span class="post_price h5" data-bind="pltext: post_price">00</span>
-			<div class="more_price" data-bind="pltext: more_price">Additional Information</div>
+			<div class="more_price" data-bind="pltext: more_price">Additional Information Here</div>
 	</div>
       
       <div class="pl-btn-wrap flippytext"><a class="pl-btn" href="#" data-bind="plbtn: 'button'" ></a></div>
