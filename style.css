@@ -1,0 +1,36 @@
+.front.flippy-front, .back.flippy-back  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1em;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.flippbox{padding:10px}
+.flippytext{padding-left:5px; padding-right:5px;}
+#card {
+    margin-bottom: 2em;
+}
+.flippy-inner {
+    text-align: center;
+}
+.front.flippy-front {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+h3.flip-subheading.pltext {
+    font-weight: 300;
+    margin: .3em 0 2em;
+}
+@media (min-width: 768px){
+h2.flip-heading.pltext {
+    font-size: 4em;
+}
+}

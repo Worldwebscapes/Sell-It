@@ -1,2 +1,1 @@
-# Sell-It
-Pagelines Product Section Plug In
+Detailed description of the plugin using markdown.
