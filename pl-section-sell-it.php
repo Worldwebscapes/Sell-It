@@ -5,7 +5,7 @@
   Description: A flip content section.
 
   Author:      World Word Webscapes
-  Version:     3.5
+  Version:     3.7
 
   PageLines:   PL_Section_Sell_It
   Tags:        starter
