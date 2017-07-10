@@ -15,7 +15,19 @@
 
 */
 
- 
+ require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://github.com/Worldwebscapes/Sell-It',
+    __FILE__,
+    'pl-section-sell-it'
+);
+
+//Optional: If you're using a private repository, specify the access token like this:
+$myUpdateChecker->setAuthentication('');
+
+//Optional: Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('');
+
 
 
 /** A guard to prevent the section from being loaded if platform isn't installed or at the wrong time */
@@ -131,7 +143,7 @@ class PL_Section_Sell_It extends PL_Section {
 					'label' => __( 'Sub Headline', 'pl-section-sellit' ),
 					'height' => '100px',
 					'type' => 'richtext',
-					'default' => 'Lets Sell Something Quick And Easy Today!'
+					'default' => 'Lets Sell Something Quick And Easy Right Now!'
 				),
 			),
 		);
