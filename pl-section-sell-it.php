@@ -5,11 +5,11 @@
   Description: A flip content section.
 
   Author:      World Word Webscapes
-  Version:     3.9
+  Version:     3.5
 
   PageLines:   PL_Section_Sell_It
   Tags:        starter
-S
+
   Category:     framework, sections
   Filter:       component
 
@@ -22,11 +22,8 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
     'pl-section-sell-it'
 );
 
-//Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication('');
-
 //Optional: Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('');
+$myUpdateChecker->setBranch('master');
 
 
 
@@ -225,7 +222,7 @@ class PL_Section_Sell_It extends PL_Section {
           ),
 			array(
          'key'      => 'more_price',
-         'default'    => 'Additional Information Here',
+         'default'    => 'Additional Information',
          'type'       => 'text',
          'label'     => __( 'Addtional Info', 'pl-section-sellit' ),
           ),
@@ -359,7 +356,7 @@ array(
 			<span class="pre_price h4" data-bind="pltext: pre_price">$</span>
 			<span class="price h1" data-bind="pltext: price">25</span>
 			<span class="post_price h5" data-bind="pltext: post_price">00</span>
-			<div class="more_price" data-bind="pltext: more_price">Additional Information Here</div>
+			<div class="more_price" data-bind="pltext: more_price">Additional Information</div>
 	</div>
       
       <div class="pl-btn-wrap flippytext"><a class="pl-btn" href="#" data-bind="plbtn: 'button'" ></a></div>
