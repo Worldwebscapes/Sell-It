@@ -5,7 +5,7 @@
   Description: A flip content section.
 
   Author:      World Word Webscapes
-  Version:     3.7
+  Version:     3.8
 
   PageLines:   PL_Section_Sell_It
   Tags:        starter
@@ -334,7 +334,7 @@ array(
 <div class="box_color " data-bind="style: { 'background-color': box_color },}">
 <div class="flippybox">
 <div data-bind="style: { 'background-color': title_background }, plclassname: [title_scheme() ]">
-	<span class="h2 flippytext" data-bind="pltext: product_title">Product Title</span>
+	<span class="h3 flippytext" data-bind="pltext: product_title">Product Title</span>
 </div>
         <div id="card" class="flip-card">
             <!-- front -->
