@@ -14,7 +14,10 @@
     background-size: cover;
     background-position: 50% 50%;
 }
-.flippbox{padding:10px}
+.flippybox{padding-top:10px;
+padding-bottom:10px;
+padding-left:5px;
+padding-right:5px;}
 .flippytext{padding-left:5px; padding-right:5px;}
 #card {
     margin-bottom: 2em;

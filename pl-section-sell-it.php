@@ -5,11 +5,11 @@
   Description: A flip content section.
 
   Author:      World Word Webscapes
-  Version:     3.8
+  Version:     3.9
 
   PageLines:   PL_Section_Sell_It
   Tags:        starter
-
+S
   Category:     framework, sections
   Filter:       component
 
